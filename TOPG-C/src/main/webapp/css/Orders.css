@@ -1,0 +1,33 @@
+@charset "UTF-8";
+body {
+			background-image: url("bluebg.png");
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+
+		table {
+			border-collapse: collapse;
+			width: 100%;
+			max-width: 800px;
+			margin: auto;
+			background-color: #f2f2f2;
+		}
+
+		th, td {
+			padding: 8px;
+			text-align: left;
+			border-bottom: 1px solid #ddd;
+		}
+
+		th {
+			background-color: #4CAF50;
+			color: white;
+		}
+
+		tr:nth-child(even) {
+			background-color: #f2f2f2;
+		}
+
+		tr:hover {
+			background-color: #ddd;
+		}

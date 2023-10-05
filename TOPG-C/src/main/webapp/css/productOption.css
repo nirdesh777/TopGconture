@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+} 
+
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:50px auto;
+    background : #F3EBF6;
+    
+
+}
+
+.button {
+    position: absolute;
+    top:55%;
+    left:250px;
+    line-height: 80px;
+    width: 180px;
+}
+
+.button:hover {
+      background-color:#FF69B4;
+      transition: 0.7s;
+  }
+
+.button1:hover {
+      background-color:#FF69B4;
+      transition: 0.7s;
+  }
+
+.button2:hover {
+      background-color:#FF69B4;
+      transition: 0.7s;
+  }
+  
